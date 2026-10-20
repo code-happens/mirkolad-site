@@ -1,0 +1,43 @@
+/* Hallmark · tokens · mirkolad.codehappens.dev · theme: custom-tuned Midnight (barwy ikony aplikacji)
+ * axes: paper dark / rounded grotesk display / accent warm (orange 50)
+ */
+:root {
+  --color-paper:   oklch(16% 0.014 255);
+  --color-paper-2: oklch(20% 0.016 255);
+  --color-paper-3: oklch(25% 0.018 255);
+  --color-ink:     oklch(94% 0.008 255);
+  --color-muted:   oklch(76% 0.012 255);
+  --color-accent:  oklch(74% 0.16 52);
+  --color-focus:   oklch(80% 0.15 60);
+  --color-bloom:   oklch(60% 0.15 52 / 0.16);
+  --color-clear:   oklch(16% 0.014 255 / 0);
+
+  --font-display: "Bricolage Grotesque", "Trebuchet MS", ui-sans-serif, sans-serif;
+  --font-body:    "Geist", ui-sans-serif, "Segoe UI", sans-serif;
+
+  --text-sm:      0.875rem;
+  --text-base:    1.0625rem;
+  --text-md:      1.25rem;
+  --text-lg:      clamp(1.375rem, 1.2vw + 1.1rem, 1.75rem);
+  --text-display: clamp(2.5rem, 5vw + 1rem, 4.5rem);
+
+  --space-2xs: 0.25rem;
+  --space-xs:  0.5rem;
+  --space-sm:  0.75rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  --page-gutter: clamp(1rem, 4vw, 2.5rem);
+  --page-max:    70rem;
+  --read-max:    46rem;
+
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-pill: 999px;
+
+  --dur-short: 160ms;
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+}

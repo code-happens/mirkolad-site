@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mirkoład – nieoficjalny klient Wykop.pl na Androida</title>
+<meta name="description" content="Mirkoład – nieoficjalny klient Wykop.pl na Androida. Wątki w komentarzach, kursy giełdowe w treści, własne kategorie, tryb poziomy i trzy motywy.">
+<link rel="canonical" href="https://mirkolad.codehappens.dev/">
+<link rel="icon" href="img/icon-64.png" type="image/png">
+<meta property="og:title" content="Mirkoład – klient Wykop.pl">
+<meta property="og:description" content="Nieoficjalny klient Wykop.pl na Androida: wątki w komentarzach, kursy giełdowe w treści, własne kategorie.">
+<meta property="og:image" content="https://mirkolad.codehappens.dev/img/icon-256.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#f3f5f9">
+<link rel="stylesheet" href="fonts/home-fonts.css">
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<header class="wrap top">
+  <a class="mark" href="./"><img src="img/icon-64.png" alt="" width="64" height="64">Mirkoład</a>
+  <nav aria-label="Strona">
+    <a class="opt" href="#funkcje">Funkcje</a>
+    <a class="opt" href="#pytania">Pytania</a>
+    <a href="privacy-policy.html">Prywatność</a>
+  </nav>
+</header>
+
+<main>
+  <section class="wrap hero" aria-labelledby="tytul">
+    <div>
+      <h1 id="tytul">Wykop, <span class="u">poukładany.</span></h1>
+      <p><strong>Mirkoład</strong> to nieoficjalny klient Wykop.pl na Androida. Mikroblog, znaleziska, powiadomienia i wiadomości w szybkiej, natywnej aplikacji, z kilkoma rzeczami, których brakowało.</p>
+      <span class="state">Wkrótce w Google Play</span>
+      <p class="hero__note">↓ zobacz, co potrafi</p>
+    </div>
+    <div class="stack">
+      <figure class="shot shot--back"><img src="shots/ticker.webp" alt="Arkusz z kursem NVIDIA otwarty z wpisu" width="720" height="1600"></figure>
+      <figure class="shot shot--tape"><img src="shots/wpis.webp" alt="Wpis z mikrobloga ze zdjęciem Ziemi i listą komentarzy" width="720" height="1600" fetchpriority="high"></figure>
+    </div>
+  </section>
+
+  <div id="funkcje">
+  <section class="wrap scene" aria-labelledby="s1">
+    <div class="scene__text">
+      <h2 id="s1">Widać, kto komu odpisał</h2>
+      <p>Komentarze zostają na jednej, płaskiej liście, a mimo to wiesz, gdzie toczy się rozmowa. Przy komentarzu z odpowiedziami jest licznik, a jedno stuknięcie otwiera całą wymianę w osobnym arkuszu.</p>
+      <p>Autor wpisu ma etykietę, a komentarze dodane od Twojej ostatniej wizyty dostają kropkę.</p>
+    </div>
+    <div>
+      <div class="board board--pair">
+        <figure class="shot">
+          <img src="shots/watki.webp" alt="Komentarze pod wpisem: etykieta autor i przycisk rozmowy z liczbą 3" width="720" height="1600" loading="lazy">
+          <span class="pin pin--l p1"><i>1</i><span>autor wpisu</span></span>
+          <span class="pin pin--l p2"><i>2</i><span>3 odpowiedzi</span></span>
+        </figure>
+        <figure class="shot">
+          <img src="shots/rozmowa.webp" alt="Arkusz Rozmowa z wpisem i podświetlonym komentarzem, na który ktoś odpowiedział" width="720" height="1600" loading="lazy">
+          <span class="pin pin--r p3"><i>3</i><span>cała rozmowa</span></span>
+          <span class="pin pin--r p4"><i>4</i><span>tu się zaczęło</span></span>
+        </figure>
+      </div>
+      <ol class="notes notes--keep" aria-label="Opis oznaczeń">
+        <li><b>1</b>autor wpisu</li><li><b>2</b>3 odpowiedzi pod komentarzem</li><li><b>3</b>cała rozmowa w arkuszu</li><li><b>4</b>komentarz, od którego się zaczęło</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="wrap scene scene--flip" aria-labelledby="s2">
+    <div class="scene__text">
+      <h2 id="s2">Ktoś pisze <span class="ticker">$NVDA</span>? Masz kurs.</h2>
+      <p>Tickery giełdowe w treści są podkreślone. Stuknięcie pokazuje cenę, zmianę z dnia i wykres sesji, bez wychodzenia z wpisu.</p>
+      <p>Działa ze spółkami z USA, z GPW i z kryptowalutami.</p>
+    </div>
+    <div>
+      <div class="board board--l">
+        <figure class="shot">
+          <img src="shots/ticker.webp" alt="Wpis z tickerem NVDA i arkusz z ceną 216,84 USD, zmianą dnia i wykresem" width="720" height="1600" loading="lazy">
+          <span class="pin pin--l p5"><i>1</i><span>ticker w treści</span></span>
+          <span class="pin pin--l p6"><i>2</i><span>cena i zmiana dnia</span></span>
+          <span class="pin pin--l p7"><i>3</i><span>wykres sesji</span></span>
+        </figure>
+      </div>
+      <ol class="notes" aria-label="Opis oznaczeń">
+        <li><b>1</b>ticker w treści</li><li><b>2</b>cena i zmiana dnia</li><li><b>3</b>wykres sesji</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="wrap scene" aria-labelledby="s3">
+    <div class="scene__text">
+      <h2 id="s3">Twój własny kanał</h2>
+      <p>Zbierz tagi, autorów i frazy w jedną kategorię. Dostaje własną zakładkę: najnowsze albo najgorętsze z ostatnich 2, 6, 12 lub 24 godzin.</p>
+      <p>Na przykład „Kosmos” z #astronomia, #kosmos i #spacex.</p>
+    </div>
+    <div>
+      <div class="board board--r">
+        <figure class="shot">
+          <img src="shots/kategoria-jasny.webp" alt="Kategoria Kosmos z przełącznikiem Najnowsze i Gorące 2 h, 6 h" width="720" height="1600" loading="lazy">
+          <span class="pin pin--r p8"><i>1</i><span>Twoja kategoria</span></span>
+          <span class="pin pin--r p9"><i>2</i><span>gorące z 2–24 h</span></span>
+        </figure>
+      </div>
+      <ol class="notes" aria-label="Opis oznaczeń">
+        <li><b>1</b>Twoja kategoria jako zakładka</li><li><b>2</b>gorące z ostatnich 2–24 h</li>
+      </ol>
+    </div>
+  </section>
+  </div>
+
+  <section class="wrap scene" aria-labelledby="s4" data-one>
+    <div class="scene__text">
+      <h2 id="s4">Tablet i poziomo</h2>
+      <p>Na szerokim ekranie nawigacja przechodzi na bok, a otwarty wpis pojawia się obok listy. Czytasz dalej, nie tracąc miejsca.</p>
+    </div>
+    <figure class="wide">
+      <img src="shots/poziomo.webp" alt="Mirkoład w poziomie: lista kategorii Kosmos po lewej, otwarty wpis po prawej" width="1600" height="720" loading="lazy">
+      <figcaption>← lista &nbsp;·&nbsp; wpis obok →</figcaption>
+    </figure>
+  </section>
+
+  <section class="wrap scene" aria-labelledby="s5" data-one>
+    <div class="scene__text">
+      <h2 id="s5">Jasno, ciemno albo czarno</h2>
+      <p>Motyw systemowy, jasny i ciemny, a do tego czarne tło AMOLED, które oszczędza baterię. Rozmiar tekstu od 85 do 130 % i widok zwarty dla tych, którzy chcą widzieć więcej naraz.</p>
+    </div>
+    <div class="themes" tabindex="0" aria-label="Trzy motywy">
+      <figure><img src="shots/kategoria-jasny.webp" alt="Motyw jasny" width="720" height="1600" loading="lazy"><figcaption>jasny</figcaption></figure>
+      <figure><img src="shots/kategoria-ciemny.webp" alt="Motyw ciemny" width="720" height="1600" loading="lazy"><figcaption>ciemny</figcaption></figure>
+      <figure><img src="shots/kategoria-amoled.webp" alt="Motyw AMOLED z czarnym tłem" width="720" height="1600" loading="lazy"><figcaption>AMOLED</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="wrap more" aria-labelledby="more-h">
+    <h2 id="more-h">I jeszcze</h2>
+    <ul>
+      <li><b>Powiadomienia w tle</b><span>Każda odpowiedź osobno, z awatarem autora.</span></li>
+      <li><b>Szkic komentarza na dole</b><span>Odpowiedz, cytuj i wołaj, a nic się nie nadpisze.</span></li>
+      <li><b>Megafon</b><span>Zawołaj całą dyskusję albo plusujących jednym stuknięciem.</span></li>
+      <li><b>Filmy w aplikacji</b><span>YouTube, Streamable i posty z X bez przełączania aplikacji.</span></li>
+      <li><b>Przeglądarka zdjęć</b><span>Przybliżanie, galeria, zamykanie gestem w dół.</span></li>
+      <li><b>Wiadomości prywatne</b><span>Rozmowy z dymkami i zdjęciami.</span></li>
+      <li><b>Tag z archiwum</b><span>Skocz do dowolnego miesiąca w historii tagu.</span></li>
+      <li><b>Czarne listy</b><span>Ludzie, tagi i domeny, które chcesz pominąć.</span></li>
+      <li><b>Treści +18 pod kontrolą</b><span>Ukryte, rozmyte albo widoczne, jak wolisz.</span></li>
+    </ul>
+  </section>
+
+  <section class="wrap faq" id="pytania" aria-labelledby="faq-h">
+    <h2 id="faq-h">Pytania</h2>
+    <dl>
+      <div><dt>Czy to oficjalna aplikacja Wykopu?</dt>
+        <dd>Nie. Mirkoład to nieoficjalny klient, niezwiązany z Wykop.pl. Korzysta z oficjalnego API Wykopu, a na publikację w Google Play ma zgodę serwisu.</dd></div>
+      <div><dt>Jak się loguję?</dt>
+        <dd>Na stronie logowania Wykopu, którą aplikacja otwiera w swoim oknie. <strong>Hasło trafia wyłącznie do Wykopu.</strong> Bez logowania też czytasz znaleziska, wpisy i komentarze.</dd></div>
+      <div><dt>Czy są reklamy?</dt>
+        <dd>Nieliczne: baner co 10 albo 20 pozycji na liście. Usuniesz je na stałe jednorazowym zakupem, bez abonamentu. Żadna funkcja nie jest płatna.</dd></div>
+      <div><dt>Co z moimi danymi?</dt>
+        <dd>Mirkoład nie ma własnych serwerów. Ustawienia, kategorie i token logowania zostają na telefonie. Szczegóły: <a href="privacy-policy.html">polityka prywatności</a>.</dd></div>
+      <div><dt>Jak zgłosić błąd?</dt>
+        <dd>W aplikacji: Ustawienia → O aplikacji → Zgłoś błąd. Zgłoszenia trafiają na tag #mirkoladbledy. Można też napisać na contact@codehappens.dev.</dd></div>
+      <div><dt>Kiedy pobiorę?</dt>
+        <dd>Wkrótce, z Google Play. Odnośnik pojawi się na tej stronie.</dd></div>
+    </dl>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p class="foot__line">Mirko zawsze pod ręką.</p>
+  <nav aria-label="Stopka">
+    <a href="privacy-policy.html">Polityka prywatności</a>
+    <a href="privacy-policy.html#en" lang="en">Privacy Policy</a>
+    <a href="https://codehappens.dev/">Code Happens</a>
+  </nav>
+  <p>© 2026 Code Happens. Mirkoład jest nieoficjalnym klientem i nie jest powiązany z Wykop.pl. „Wykop” jest znakiem towarowym jego właściciela; nazwa pojawia się tu wyłącznie po to, by opisać, z jakim serwisem działa aplikacja. Ta strona nie używa plików cookie i nie ładuje niczego z zewnętrznych serwerów.</p>
+</footer>
+
+</body>
+</html>
