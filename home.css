@@ -193,13 +193,13 @@ h1, h2, h3 { text-wrap: balance; }
 }
 
 /* Pozycje adnotacji (procent szerokości i wysokości zrzutu) */
-.p1 { --x: 27.8%; --y: 49.85%; --reach: 6rem }
-.p2 { --x: 35.6%; --y: 79.7%; --reach: 7rem }
-.p3 { --x: 16.7%; --y: 12.2%; --reach: 12rem }
-.p4 { --x: 84%; --y: 80%; --reach: 2.6rem }
-.p5 { --x: 23.7%; --y: 19.4%; --reach: 6rem }
-.p6 { --x: 17%; --y: 73.5%; --reach: 4.6rem }
-.p7 { --x: 50%; --y: 84%; --reach: 10.8rem }
-.p8 { --x: 9.7%; --y: 14.3%; --reach: 18.2rem }
-.p9 { --x: 44%; --y: 20.2%; --reach: 11.9rem }
+.p1 { --x: 47.9%; --y: 31.3%; --reach: 6rem }
+.p2 { --x: 33.7%; --y: 26.3%; --reach: 7rem }
+.p3 { --x: 6.4%; --y: 30.3%; --reach: 12rem }
+.p4 { --x: 83.4%; --y: 63.5%; --reach: 2.6rem }
+.p5 { --x: 7.1%; --y: 16.7%; --reach: 6rem }
+.p6 { --x: 11.5%; --y: 76%; --reach: 4.6rem }
+.p7 { --x: 50%; --y: 87.5%; --reach: 10.8rem }
+.p8 { --x: 9.7%; --y: 11.6%; --reach: 18.2rem }
+.p9 { --x: 44.2%; --y: 17.5%; --reach: 11.9rem }
 .scene[data-one] { grid-template-columns: minmax(0, 1fr); }
