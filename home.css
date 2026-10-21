@@ -1,3 +1,101 @@
+/* Czcionki (dawniej fonts/home-fonts.css) — w tym samym pliku, żeby nie blokować renderowania drugim żądaniem. */
+/* latin-ext */
+@font-face {
+  font-family: 'Anybody';
+  font-style: normal;
+  font-weight: 600 900;
+  font-stretch: 75% 125%;
+  font-display: swap;
+  src: url(fonts/Anybody-0-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Anybody';
+  font-style: normal;
+  font-weight: 600 900;
+  font-stretch: 75% 125%;
+  font-display: swap;
+  src: url(fonts/Anybody-1-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/Caveat-2-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/Caveat-3-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/Caveat-2-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/Caveat-3-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/InstrumentSans-4-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/InstrumentSans-5-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/InstrumentSans-4-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/InstrumentSans-5-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* Hallmark · route: custom (bespoke) · structure: zeszyt w kratkę — sceny funkcji z dużym zrzutem i odręcznymi adnotacjami markerem
  * idea: "ktoś pokazuje Ci aplikację i dopisuje na marginesie, gdzie patrzeć"
  * paper: oklch(96% 0.008 250) + kratka · accent: oklch(66% 0.18 48) (pomarańcz z ikony Ł) · display: Anybody · body: Instrument Sans · outlier: Caveat (adnotacje)
@@ -128,7 +226,7 @@ h1, h2, h3 { text-wrap: balance; }
 
 /* Adnotacje */
 .board { position: relative; display: flex; justify-content: center; gap: var(--space-lg); }
-.board .shot { width: min(100%, 18.5rem); }
+.board .shot { width: min(100%, 18.5rem); align-self: flex-start; } /* bez rozciągania: znaczniki to procenty wysokości zrzutu */
 @media (min-width: 72rem) { .board--r { justify-content: flex-start; } .board--l { justify-content: flex-end; } .board--pair .pin span, .board--pair .pin::after { display: none; } .notes--keep { display: grid !important; } }
 .board--pair .shot { width: min(48%, 16rem); }
 .board--pair .shot:nth-child(2) { margin-top: var(--space-2xl); }
@@ -193,13 +291,13 @@ h1, h2, h3 { text-wrap: balance; }
 }
 
 /* Pozycje adnotacji (procent szerokości i wysokości zrzutu) */
-.p1 { --x: 47.9%; --y: 31.3%; --reach: 6rem }
-.p2 { --x: 33.7%; --y: 26.3%; --reach: 7rem }
-.p3 { --x: 6.4%; --y: 30.3%; --reach: 12rem }
-.p4 { --x: 83.4%; --y: 63.5%; --reach: 2.6rem }
-.p5 { --x: 7.1%; --y: 16.7%; --reach: 6rem }
-.p6 { --x: 11.5%; --y: 76%; --reach: 4.6rem }
+.p1 { --x: 58%; --y: 31.3%; --reach: 6rem }
+.p2 { --x: 47.9%; --y: 26.3%; --reach: 7rem }
+.p3 { --x: 35.1%; --y: 30.3%; --reach: 12rem }
+.p4 { --x: 75.4%; --y: 58.6%; --reach: 2.6rem }
+.p5 { --x: -2.6%; --y: 16.7%; --reach: 6rem }
+.p6 { --x: -1.1%; --y: 76%; --reach: 4.6rem }
 .p7 { --x: 50%; --y: 87.5%; --reach: 10.8rem }
-.p8 { --x: 9.7%; --y: 11.6%; --reach: 18.2rem }
-.p9 { --x: 44.2%; --y: 17.5%; --reach: 11.9rem }
+.p8 { --x: 102%; --y: 11.6%; --reach: 2.4rem }
+.p9 { --x: 102%; --y: 17.5%; --reach: 2.4rem }
 .scene[data-one] { grid-template-columns: minmax(0, 1fr); }
