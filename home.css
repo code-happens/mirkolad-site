@@ -200,6 +200,8 @@ h1, h2, h3 { text-wrap: balance; }
 .hero p strong { color: var(--color-ink); font-weight: 600; }
 .state { display: inline-flex; align-items: center; gap: var(--space-sm); padding: 0.55rem 1rem; border: 2px solid var(--color-ink); border-radius: 999px; font-weight: 600; white-space: nowrap; background: var(--color-paper); }
 .state::before { content: ""; width: 0.6rem; height: 0.6rem; border-radius: 50%; background: var(--color-marker); }
+a.state { color: var(--color-ink); text-decoration: none; transition: background-color .15s, color .15s; }
+a.state:hover, a.state:focus-visible { background: var(--color-ink); color: var(--color-paper); }
 .hero__note { margin-top: var(--space-md); font: 700 var(--hand)/1.2 var(--font-hand); color: var(--color-marker); }
 
 .stack { position: relative; min-height: 0; display: grid; place-items: center; padding-block: var(--space-lg); }
